@@ -1,0 +1,80 @@
+.price{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'Balsamiq Sans';
+	color: green; 
+	text-align: center;
+			 text-shadow: 4px 4px 4px #8DAA9D;
+			margin: 5px;
+}
+h1{
+	font-weight: bold;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-family: 'Balsamiq Sans', cursive;
+
+}
+table {
+	width: 100%;
+ }
+ 
+ tr.example-detail-row {
+	height: 0;
+ }
+ 
+ tr.example-element-row:not(.example-expanded-row):hover {
+	background: whitesmoke;
+ }
+ 
+ tr.example-element-row:not(.example-expanded-row):active {
+	background: #efefef;
+ }
+ 
+ .example-element-row td {
+	border-bottom-width: 0;
+ }
+ 
+ .example-element-detail {
+	overflow: hidden;
+	display: flex;
+ }
+ 
+ .example-element-diagram  {
+	overflow: hidden;
+	min-width: 100px;
+	margin: 16px;
+
+	border-radius: 10px;
+	padding: 8px;
+
+	margin: 8px 0;
+	
+ }
+.img-element{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+}
+@media (max-width: 600px) {
+	.img-element{
+		width: 90px;
+		height: 90px;
+	}
+
+}
+	
+ .example-element-symbol {
+	font-weight: bold;
+	font-size: 40px;
+	line-height: normal;
+ }
+ 
+ .example-element-description {
+	padding: 16px;
+	width: 80%;
+	
+
+ }
+ 
+ .example-element-description-attribution {
+	opacity: 0.5;
+ }
+

@@ -1,0 +1,124 @@
+
+.title{
+	color: green; 
+	text-align: center;
+			 text-shadow: 4px 4px 4px #8DAA9D;
+			margin-top: 15px;	
+}
+h1{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-family: 'Balsamiq Sans', cursive;
+}
+h2{
+	font-weight: bold;
+	font-size: 25px;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-family: 'Balsamiq Sans', cursive;
+}
+.aboute-us{
+display: flex;
+
+}
+.aboute-us-img{
+	margin: 17px;
+
+	height:  58% ;
+	width: auto;
+	overflow: hidden;
+	object-fit: center;
+	
+}
+.aboute-us-img:hover{
+	transform: scale(1.02);
+	box-shadow: 2px 2px  4px gray;
+}
+.img-us{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.aboute-us-info{
+	margin: 17px;
+	font-size: 15px;
+}
+@media (max-width: 800px) {
+	.aboute-us-img
+	{
+		display: none;
+	}
+	.aboute-us{
+		justify-content: center;
+	}
+}
+
+.eboute-me{
+	text-align: center;
+}
+.foto-shef{
+display: flex;
+justify-content: flex-end;
+height: 70px;
+
+}
+
+.avatar-foto{
+	border-radius: 50%;
+width: 60px;
+height: 60px;
+}
+.avatar-foto23{
+	border-radius: 50%;
+	width: 100px;
+	height: 60px;
+}
+.icon-mas{
+	display: flex;
+}
+.icon-mas-icon{
+	text-align: center;
+}
+.icon-img{
+
+border-radius: 50%;
+background-color: green;
+}
+.img-icon{
+	width: 100%;
+	height: 100%;
+}
+.icon-img:hover{
+	transform: scale(1.02);
+	box-shadow: 2px 2px  4px gray;
+}
+.img-url:hover{
+	transform: scale(1.05);
+	
+}
+.news{
+	margin-bottom: 10px;
+}
+.img-url{
+	text-align: center;
+}
+.img-news{
+	width: 60px;
+	height: 60px;
+}
+.home-cards{
+	margin-bottom: -40px;
+}
+.home-cards-one{
+	margin-bottom: -70px;
+}
+.title-size{
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+
+ 

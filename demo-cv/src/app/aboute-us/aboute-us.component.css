@@ -1,0 +1,28 @@
+.contant{
+	margin: 20px;
+}
+h1{
+	color: #228B22;
+	font-weight: bold;
+	font-size: 30px;
+text-align: center;
+margin-top: 15px;
+}
+h2{
+	color: #228B22;
+	margin-top: 10px;
+}
+.picture{
+	display: flex;
+flex: 0 0 500px ;
+	min-height: 130px;
+	justify-content: center;
+	padding: 40px;
+}
+.img{
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	top: 0;
+	left: 0; 
+}

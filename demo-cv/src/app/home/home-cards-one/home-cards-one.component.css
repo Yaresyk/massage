@@ -1,0 +1,34 @@
+
+.mat-tab-group {
+	margin-bottom: 48px;
+ }
+.icon-gallery{
+	
+	padding: 0px 0px 5% 0px ;
+	overflow: hidden;
+	object-fit: center;
+	width: 100%;
+
+}
+@media (min-width: 740px) {
+	.icon-gallery{
+		width: 100%;
+	align-content: center;
+}
+
+}
+@media (max-width: 740px) {
+	.cards-salon{
+		max-width: 500px
+}
+ }
+
+.gallery-icon{
+	width: 100%;
+	height: 100%;
+	top: 0;
+left: 0;
+}
+.icon-active{
+	margin-bottom: +5%;
+}

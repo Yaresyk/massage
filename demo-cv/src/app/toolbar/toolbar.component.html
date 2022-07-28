@@ -1,0 +1,50 @@
+<div class="container">
+	<mat-toolbar >
+		
+		 <button mat-button [matMenuTriggerFor]="menu"  class="burger-menu" ><mat-icon >menu</mat-icon></button>
+<div class="menu">
+		 <mat-menu #menu="matMenu"   >
+  <button mat-menu-item  routerLink="massages" ><span class="title" >МАСАЖІ </span> <mat-icon>pan_tool</mat-icon></button>
+  <button mat-menu-item  routerLink="aboute-us" ><span class="title" >ПРО НАС </span> <mat-icon>person</mat-icon></button>
+  <button mat-menu-item  routerLink="salon" ><span class="title" >НАШ САЛОН </span> <mat-icon> store_mall_directory</mat-icon></button>
+  <button mat-menu-item routerLink="price" ><span class="title" >ПРАЙС </span> <mat-icon> local_offer</mat-icon> </button>
+  <button mat-menu-item routerLink="reviews" ><span class="title" >ВІДГУКИ</span> <mat-icon
+	style="margin-left: 10px;" >thumbs_up_down</mat-icon></button>
+  <button mat-menu-item><a style="text-decoration: none ;" href="https://bank.gov.ua/ua/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi"  target="_blank" >
+	<span class="title" >HELP ZSU</span>
+</a>
+</button>
+</mat-menu>
+</div>
+
+		<a href="http://localhost:4200/" > <img  style="width:70px;" class="logo"  src="./assets/img/logo-lotos.png" alt="LOTOS"> </a> <a><span class="text-color" 
+			 >ЯРЕСИК ОЛЕГ</span></a>
+	
+	 <span class="example-spacer" ></span>
+		 <button mat-button class="example-icon last " routerLink="massages" aria-label="Example icon-button with share icon">
+			<span class="text-color" >МАСАЖІ </span> <mat-icon>pan_tool</mat-icon>
+		 </button>
+		 <button mat-button class="example-icon second  " routerLink="aboute-us" aria-label="Example icon-button with share icon">
+			<span class="text-color" >ПРО НАС </span> <mat-icon>person</mat-icon>
+		 </button>
+		 <button mat-button class="example-icon  favorite-icon first" routerLink="salon" aria-label="Example icon-button with heart icon">
+			<span class="text-color" >НАШ САЛОН </span> <mat-icon> store_mall_directory</mat-icon>
+		 </button>
+		 <button mat-button class="example-icon  last" routerLink="price" aria-label="Example icon-button with share icon">
+			<span class="text-color" >ПРАЙС </span> <mat-icon> local_offer</mat-icon> 
+		 </button>
+		 <button mat-button
+		  class="example-icon  second" routerLink="reviews"
+		  aria-label="Example icon-button with share icon">
+			<span class="text-color" >ВІДГУКИ</span> <mat-icon
+			style="margin-left: 10px;" >thumbs_up_down</mat-icon>
+		 </button>
+	
+			<a class="first" href="https://bank.gov.ua/ua/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi"  target="_blank" >
+				 <img  style="margin-top:12px ;"  src="./assets/img/1.PNG" alt="ЗСУ"> 
+			</a>
+	
+	</mat-toolbar>
+	</div>
+	
+<div></div>

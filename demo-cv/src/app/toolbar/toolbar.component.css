@@ -1,0 +1,60 @@
+.example-spacer {
+	display: flex;
+	flex: 1 1 auto;
+
+ }
+
+
+ mat-toolbar{
+
+	background: -moz-linear-gradient(top,  rgba(30,137,154,1) 29%, rgba(80,185,195,1) 66%, rgba(126,229,232,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(30,137,154,1) 29%,rgba(80,185,195,1) 66%,rgba(126,229,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(30,137,154,1) 29%,rgba(80,185,195,1) 66%,rgba(126,229,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e899a', endColorstr='#007ee5e8',GradientType=0 ); /* IE6-9 */;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'Balsamiq Sans', cursive;
+color: black;
+height: 85px;
+
+}
+.text-color{
+	color: black; 
+	font-weight: bold;
+	  text-shadow: 4px 4px 4px #8DAA9D; 
+}
+.title{
+	color: green; 
+	text-shadow: 4px 4px 4px #8DAA9D;
+	margin-top: 3px;
+	font-weight: bold;
+	
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-family: 'Balsamiq Sans', cursive;
+}
+.example-icon{
+	font-family: 'Balsamiq Sans', cursive;
+	
+}
+
+ @media (min-width: 1000px) {
+	.burger-menu{
+		display: none;
+	}
+
+}
+@media (max-width: 1000px) {
+	.first{
+		display: none;
+	}
+}
+@media (max-width: 770px) {
+	.second{
+		display: none;
+	}
+}
+@media (max-width: 490px) {
+	.last{
+		display: none;
+	}
+	
+}

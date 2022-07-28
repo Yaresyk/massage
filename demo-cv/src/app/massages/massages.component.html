@@ -1,0 +1,36 @@
+<div class="contant">
+	<div fxLayout="row wrap" fxLayoutGap="16px grid">
+		<div fxFlex="33%" fxFlex.xs="100%" fxFlex.sm="33%" fxFlex.sm="50%" *ngFor="let Item of Massages "
+			fxLayoutAlign="stretch">
+			<mat-card class="example-card" fxLayout="column" fxLayoutAlign="space-between">
+
+
+				<mat-card-header style="height: 10% ;">
+					<mat-card-title style="color: green; 
+		  font-weight: bold;
+			 text-shadow: 2px 2px 3px #8DAA9D; ">{{Item.nameMassage}}</mat-card-title>
+					<mat-card-subtitle>{{Item.time}}</mat-card-subtitle>
+				</mat-card-header>
+
+				<div class="img-card" fxLayoutAlign="space-around center">
+					<img mat-card-image class="card-img" [src]="Item. mainImageUrl  " alt="Photo of a Shiba Inu">
+				</div>
+
+
+				<mat-card-content style="height: 10% ;">
+
+					<p>
+						{{Item.description}}
+					</p>
+				</mat-card-content>
+				<mat-card-actions>
+					<span style="color: green; 
+			font-weight: bold;
+			 margin-left: 10px;
+			  text-shadow: 2px 2px 2px #8DAA9D; height: 10%; ">{{Item.price}}</span>
+				</mat-card-actions>
+
+			</mat-card>
+		</div>
+	</div>
+</div>
